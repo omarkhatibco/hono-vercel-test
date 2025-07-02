@@ -1,6 +1,7 @@
 {
   "name": "hono-vercel-test",
   "scripts": {
+    "dev": "vercel dev --listen 3000",
     "start": "vercel dev",
     "deploy": "vercel"
   },
@@ -8,6 +9,6 @@
     "hono": "^4.8.3"
   },
   "devDependencies": {
-    "vercel": "^32.4.1"
+    "vercel": "^44.2.9"
   }
 }
